@@ -1,0 +1,9 @@
+Decoupled data storage is an architectural approach where data storage is separated from the application logic and business processes.
+This code demonstrates a clear separation between the core database service and the underlying data storage mechanisms,
+making CRUD (Create, Read, Update, Delete) operations independent of how the data is actually stored.
+
+By decoupling storage from the main service, the program ensures that records can be managed seamlessly,
+without taking into consideration how the data is stored -
+(in this implementation we're using a hash map and a doubly linked list).
+This approach not only enhances the flexibility and maintainability of the code
+but also makes it easier to swap out storage implementations or expand functionality in the future.
