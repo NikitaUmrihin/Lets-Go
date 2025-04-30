@@ -1,0 +1,2 @@
+protoc -I FOLDERNAME FULL/PATH.proto --go_out=FOLDERNAME
+protoc -I FOLDERNAME FULL/PATH.proto --go_out=plugins=grpc:FOLDERNAME
