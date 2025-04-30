@@ -1,0 +1,2 @@
+protoc -I chat chat/chat.proto --go_out=chat
+protoc -I chat chat/chat.proto --go_out=plugins=grpc:chat
